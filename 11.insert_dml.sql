@@ -1,0 +1,15 @@
+insert into programs values (1, 'математика и информационные технологии');
+insert into programs values (2, 'теоретическая физика');
+insert into courses values (1, 'зельеварение');
+insert into courses values (2, 'схемотехника красного камня');
+insert into courses values (3, 'животноводство');
+insert into students(program_id, card, surname, name) values(1, '180101', 'Битов', 'Антон');
+insert into students(program_id, card, surname, name) values(2, '180201', 'Аргонова', 'Виолетта');
+insert into programs_courses values (2, 1, 1);
+insert into programs_courses values (2, 2, 1);
+insert into programs_courses values (2, 2, 2);
+insert into programs_courses values (2, 3, 2);
+insert into marks values (1, 1, 2);
+insert into marks values (1, 2, 5);
+insert into marks values (2, 2, 4);
+insert into marks values (2, 3, 4);
